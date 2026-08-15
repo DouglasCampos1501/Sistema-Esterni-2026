@@ -2,15 +2,26 @@
 declare(strict_types=1);
 // Espera que header-public.php já tenha rodado ($lang, current_language() etc. disponíveis).
 $lang = $lang ?? current_language();
+$newsletterFlash = flash_get();
 ?>
 <div class="block newsletter">
 <div class="grid-container">
+<?php if ($newsletterFlash): ?>
+<div class="grid-x grid-padding-x">
+<div class="small-12 cell">
+<div class="callout <?= $newsletterFlash['type'] === 'error' ? 'alert' : 'success' ?>" style="padding:.75rem 1rem;border-radius:.5rem;margin-bottom:1rem;background:<?= $newsletterFlash['type'] === 'error' ? '#fdecea' : '#e6f7ec' ?>;color:<?= $newsletterFlash['type'] === 'error' ? '#b2071d' : '#1a7a3c' ?>;">
+<?= e($newsletterFlash['message']) ?>
+</div>
+</div>
+</div>
+<?php endif; ?>
 <div class="grid-x grid-padding-x align-middle">
 <div class="small-12 large-shrink cell">
 <strong class="upper small-text"><?= e(t('newsletter.title')) ?></strong>
 </div>
 <div class="small-12 large-auto cell">
 <form action="/newsletter.php" method="post" class="newsletter-form">
+<input type="text" name="website" value="" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" aria-hidden="true">
 <div class="grid-x grid-padding-x">
 <div class="small-12 medium-4 cell">
 <input type="text" name="name" placeholder="<?= e(t('newsletter.name_placeholder')) ?>" required>

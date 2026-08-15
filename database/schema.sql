@@ -329,6 +329,7 @@ CREATE TABLE contact_messages (
     name VARCHAR(150) NOT NULL,
     email VARCHAR(190) NOT NULL,
     phone VARCHAR(40) NULL,
+    company VARCHAR(190) NULL,
     message TEXT NOT NULL,
     language_code VARCHAR(5) NOT NULL DEFAULT 'pt-BR',
     email_sent TINYINT(1) NOT NULL DEFAULT 0,
@@ -355,7 +356,8 @@ INSERT INTO contact_form_fields (field_key, field_type, label, placeholder, is_r
 ('name', 'text', 'Nome', 'Seu nome completo', 1, 1),
 ('email', 'email', 'Email', 'Seu melhor e-mail', 1, 2),
 ('phone', 'tel', 'Telefone', '(00) 0000-0000', 0, 3),
-('message', 'textarea', 'Mensagem', '', 1, 4);
+('company', 'text', 'Empresa', 'Nome da empresa em que trabalha', 0, 4),
+('message', 'textarea', 'Mensagem', '', 1, 5);
 
 -- ============================================================
 -- Widget flutuante de WhatsApp (botão no canto da tela, com balões
@@ -387,3 +389,16 @@ INSERT INTO whatsapp_options (label, message, phone_number, sort_order, active) 
 ('Atendimento / Informações', 'Olá, gostaria de falar com um consultor da Esterni.', '5541995967801', 1, 1),
 ('Assuntos financeiros', 'Olá, gostaria de falar com o departamento financeiro da Esterni.', '5541995967801', 2, 1),
 ('Projetos', 'Olá, gostaria de falar com a Esterni sobre projetos.', '5541995967801', 3, 1);
+
+-- ============================================================
+-- Newsletter (formulário "Receba por e-mail" do rodapé)
+-- ============================================================
+
+CREATE TABLE newsletter_subscribers (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    email VARCHAR(190) NOT NULL UNIQUE,
+    language_code VARCHAR(5) NOT NULL DEFAULT 'pt-BR',
+    ip_address VARCHAR(45) NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

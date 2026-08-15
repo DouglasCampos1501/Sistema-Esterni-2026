@@ -37,6 +37,7 @@ $messages = db()->query('SELECT * FROM contact_messages ORDER BY created_at DESC
         <tr>
             <th>Nome</th>
             <th>Contato</th>
+            <th>Empresa</th>
             <th>Mensagem</th>
             <th>Idioma</th>
             <th>E-mail enviado</th>
@@ -52,6 +53,7 @@ $messages = db()->query('SELECT * FROM contact_messages ORDER BY created_at DESC
                 <?= e($m['email']) ?>
                 <?php if ($m['phone']): ?><br><span style="color:#667085;"><?= e($m['phone']) ?></span><?php endif; ?>
             </td>
+            <td><?= e($m['company'] ?? '') ?></td>
             <td style="max-width:320px;white-space:pre-line;"><?= e($m['message']) ?></td>
             <td><?= e($m['language_code']) ?></td>
             <td><?= $m['email_sent'] ? '✅' : '⚠️ não' ?></td>
@@ -67,7 +69,7 @@ $messages = db()->query('SELECT * FROM contact_messages ORDER BY created_at DESC
         </tr>
     <?php endforeach; ?>
     <?php if (!$messages): ?>
-        <tr><td colspan="7">Nenhuma mensagem recebida ainda.</td></tr>
+        <tr><td colspan="8">Nenhuma mensagem recebida ainda.</td></tr>
     <?php endif; ?>
     </tbody>
 </table>

@@ -11,7 +11,7 @@ require_once __DIR__ . '/settings.php';
  * por isso toda mensagem também é salva em contact_messages independente
  * do resultado deste envio.
  */
-function send_contact_email(string $name, string $email, string $phone, string $message): bool
+function send_contact_email(string $name, string $email, string $phone, string $message, string $company = ''): bool
 {
     $to = get_setting('contact_recipient_email');
     if ($to === '') {
@@ -29,6 +29,9 @@ function send_contact_email(string $name, string $email, string $phone, string $
     ];
     if ($phone !== '') {
         $lines[] = "Telefone: $phone";
+    }
+    if ($company !== '') {
+        $lines[] = "Empresa: $company";
     }
     $lines[] = '';
     $lines[] = 'Mensagem:';

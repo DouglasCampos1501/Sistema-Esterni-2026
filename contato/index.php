@@ -34,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = trim($_POST['name'] ?? '');
     $email = trim($_POST['email'] ?? '');
     $phone = trim($_POST['phone'] ?? '');
+    $company = trim($_POST['company'] ?? '');
     $message = trim($_POST['message'] ?? '');
     $consent = isset($_POST['consent']);
 
@@ -47,10 +48,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (!$errors) {
         $stmt = db()->prepare(
-            'INSERT INTO contact_messages (name, email, phone, message, language_code, ip_address) VALUES (?,?,?,?,?,?)'
+            'INSERT INTO contact_messages (name, email, phone, company, message, language_code, ip_address) VALUES (?,?,?,?,?,?,?)'
         );
-        $stmt->execute([$name, $email, $phone, $message, $lang, $ip]);
-        $sent = send_contact_email($name, $email, $phone, $message);
+        $stmt->execute([$name, $email, $phone, $company, $message, $lang, $ip]);
+        $sent = send_contact_email($name, $email, $phone, $message, $company);
         db()->prepare('UPDATE contact_messages SET email_sent = ? WHERE id = ?')->execute([$sent ? 1 : 0, db()->lastInsertId()]);
         flash_set(t('contato.success'));
     } else {

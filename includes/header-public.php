@@ -4,6 +4,9 @@ declare(strict_types=1);
 require_once __DIR__ . '/db.php';
 require_once __DIR__ . '/functions.php';
 require_once __DIR__ . '/i18n.php';
+require_once __DIR__ . '/auth.php'; // só pela start_session() — nenhuma página pública exige login
+
+start_session(); // cedo, antes de qualquer HTML, pra flash/csrf funcionarem em qualquer página pública (newsletter, contato)
 
 $lang = current_language();
 $languages = get_languages();
