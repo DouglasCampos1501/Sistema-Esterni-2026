@@ -1,0 +1,18 @@
+# Configuração local (credenciais) — copie de includes/config.example.php
+includes/config.php
+
+# Mídia enviada pelos usuários via dashboard (não é código-fonte)
+uploads/media/*
+uploads/downloads/*
+!uploads/media/.gitkeep
+!uploads/downloads/.gitkeep
+!uploads/media/.htaccess
+!uploads/downloads/.htaccess
+
+# Ambiente
+.DS_Store
+Thumbs.db
+*.log
+
+# Dumps brutos de scraping do site real (referência de trabalho, não é código-fonte)
+scrape/

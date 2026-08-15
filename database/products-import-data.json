@@ -1,0 +1,782 @@
+[
+  {
+    "line": "misan",
+    "slug": "banco-misan",
+    "name": "Banco Misan",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Banco-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Banco-dim-1024x1024.png"
+  },
+  {
+    "line": "misan",
+    "slug": "banco-z-misan",
+    "name": "Banco Z Misan",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Banco-Z-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Banco-dim-1-1024x1024.png"
+  },
+  {
+    "line": "misan",
+    "slug": "lixeira-misan",
+    "name": "Lixeira Misan",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Lixeira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Lixeira-dim-1024x1024.png"
+  },
+  {
+    "line": "misan",
+    "slug": "poste-misan",
+    "name": "Poste Misan",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Misan-Poste-dim-1024x1024.png"
+  },
+  {
+    "line": "vega",
+    "slug": "lixeira-vega",
+    "name": "Lixeira Vega",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Lixeira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Vega-Lixeira-dimensoes-1024x816.png"
+  },
+  {
+    "line": "vega",
+    "slug": "mesa-vega",
+    "name": "Mesa Vega",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Mesa",
+    "type_slug": "mesa",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Mesa-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Mesa-dim-1024x1024.png"
+  },
+  {
+    "line": "vega",
+    "slug": "poste-com-mesa-e-banco-vega",
+    "name": "Poste com mesa e banco VEGA",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "BancosMesaPostes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Mesa-com-poste-1-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Mesa-com-poste-dim-1024x1024.png"
+  },
+  {
+    "line": "vega",
+    "slug": "poste-vega",
+    "name": "Poste VEGA",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Vega-Poste-dim-1024x1024.png"
+  },
+  {
+    "line": "s-park",
+    "slug": "banco-com-encosto",
+    "name": "Banco S.Park (com encosto)",
+    "description": "<p>Fabricado em alumínio injetado com pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/SPARK-Banco-com-encosto-dimens-1024x816.png"
+  },
+  {
+    "line": "s-park",
+    "slug": "banco-s-park-sem-encosto",
+    "name": "Banco S.Park (sem encosto)",
+    "description": "<p>Fabricado em alumínio injetado com pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-sem-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/SPARK-Banco-sem-encosto-dimens-1024x816.png"
+  },
+  {
+    "line": "s-park",
+    "slug": "banco-s-park-unitario-com-encosto",
+    "name": "Banco S.Park (unitário com encosto)",
+    "description": "<p>Fabricado em alumínio injetado com pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-unitario-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-unitario-com-encosto-dim-1024x1024.png"
+  },
+  {
+    "line": "s-park",
+    "slug": "banco-s-park-unitario-sem-encosto",
+    "name": "Banco S.Park (unitário sem encosto)",
+    "description": "<p>A fusão perfeita entre inovação e elegância para os espaços urbanos!</p>\n<p>Fabricada com alumínio injetado e enriquecida com a nobreza da madeira Cumaru, a linha S.Park oferece um design moderno que transforma e redefine a estética das cidades.</p>\n<p>Experimente a sofisticação e a durabilidade da linha S.Park e adicione um toque único aos seus ambientes urbanos!</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-unitario-sem-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/08/Esterni-S.Park-Banco-unitario-sem-encosto-dim-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "balizador-capella",
+    "name": "Balizador Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por processo de galvanização a fogo, conforme as normas ABNT NBR 6332, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Balizador-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Balizador-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "banco-capella",
+    "name": "Banco Capella com encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Banco-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Banco-com-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "banco-capella-2",
+    "name": "Banco Capella sem encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Capella-Banco-sem-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Capella-Banco-sem-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "cerca-capella",
+    "name": "Cerca Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Cerca-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Cerca-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "floreira-capella",
+    "name": "Floreira Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Floreira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Floreira-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "lixeira-capella",
+    "name": "Lixeira Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Lixeira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Lixeira-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "ponto-de-onibus-capella",
+    "name": "Ponto de ônibus Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Parte posterior com fechamento em vidro laminado 10mm de alta resistência apto eventualmente a receber painéis publicitários. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Pontos de Ônibus",
+    "type_slug": "ponto-de-onibus",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Ponto-de-Onibus-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Ponto-de-Onibus-medidas-1024x1024.png"
+  },
+  {
+    "line": "capella",
+    "slug": "poste-capella",
+    "name": "Poste Capella",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Capella-Poste-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "balizador-betria",
+    "name": "Balizador Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Balizador-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Balizador-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "banco-betria",
+    "name": "Banco Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Banco-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Banco-com-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "floreira-betria",
+    "name": "Banco Floreira Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "BancosFloreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Banco-Floreira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Banco-Floreira-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "cerca-betria",
+    "name": "Cerca Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Cerca-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Cerca-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "balizador-2-betria",
+    "name": "Cinzeiro Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Cinzeiro-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Cinzeiro-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "lixeira-betria",
+    "name": "Lixeira Betria",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A tampa é basculante permitindo a retirada do saco de lixo.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Lixeira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Lixeira-medidas-1024x1024.png"
+  },
+  {
+    "line": "betria",
+    "slug": "poste-betria",
+    "name": "Poste Betria",
+    "description": "<p>Fabricado em aluminio e pintura própria para garantir alta resistência aos agentes atmosféricos e pode ser da cor escolhida pelo cliente dentro da nossa lista de cores.</p>\n<p>Pode ser fixado engastado ou com base e chumbadores.</p>\n<p>A luminária não faz parte do fornecimento podendo ser adquiridas pelo clientes luminárias de varias marcas que se encaixam neste poste.</p>\n<p>A nossa equipe esta a disposição para auxilia-los na compra da luminária que melhor adapta-se a necessidade.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Betria-Poste-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "balizador-adhara",
+    "name": "Balizador Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Balizador-1-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Balizador-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "banco-adhara",
+    "name": "Banco Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Banco-4-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Banco-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "bicicletario-adhara",
+    "name": "Bicicletário Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Bicicletario-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Bicicletario-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "bicicletario-w-adhara",
+    "name": "Bicicletário W Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Bicicletario-W-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Bicicletario-W-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "cerca-adhara",
+    "name": "Cerca Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Cerca-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Cerca-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "balizador-2-adhara",
+    "name": "Cinzeiro Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Cinzeiro-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Cinzeiro-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "floreira-adhara",
+    "name": "Floreira Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Floreira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Floreira-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "lixeira-adhara",
+    "name": "Lixeira de Piso Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Lixeira-de-Piso-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Lixeira-de-Piso-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "lixeira-suspensa-adhara",
+    "name": "Lixeira Suspensa Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Lixeira-Suspensa-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Adhara-Lixeira-Suspensa-medidas-1024x1024.png"
+  },
+  {
+    "line": "adhara",
+    "slug": "poste-adhara",
+    "name": "Poste Adhara",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Adhara-Poste-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-colors",
+    "slug": "balizador-naos-colors",
+    "name": "Balizador Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Balizador-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "banco-naos-colors",
+    "name": "Banco Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Banco-com-Encosto-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "banco-sem-encosto-naos-colors",
+    "name": "Banco sem encosto Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Banco-sem-Encosto-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "cerca-naos-colors",
+    "name": "Cerca Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Cerca-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "cinzeiro-naos-colors",
+    "name": "Cinzeiro Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Cinzeiro-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "floreira-naos-colors",
+    "name": "Floreira Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Floreira-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "lixeira-naos-colors",
+    "name": "Lixeira Naos Colors",
+    "description": "<p>Fabricado em aço carbono certificado e chapas de aço repuxadas, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Lixeira-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-colors",
+    "slug": "poste-naos-colors",
+    "name": "Poste Naos",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>\n<p>A luminária não faz parte do fornecimento podendo ser adquiridas pelo clientes luminárias de varias marcas que se encaixam neste poste.</p>\n<p>A nossa equipe esta a disposição para auxilia-los na compra da luminária que melhor adapta-se a necessidade.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Recalcado-Poste-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "balizador-naos-metalico",
+    "name": "Balizador Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Balizador-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "banco-naos-metalico",
+    "name": "Banco Naos Metalico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Banco-com-Encosto-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "banco-sem-encosto-naos-metalico",
+    "name": "Banco sem encosto Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Banco-sem-Encosto-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "bicicletario-naos-2",
+    "name": "Bicicletário NAOS",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/Esterni-Bicicletario-NAOS-1-1024x814.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/image003-1.png"
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "bicicletario-naos",
+    "name": "Bicicletário NAOS Arco",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/Esterni-Bicicletario-NAOS-1024x814.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/image014.png"
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "cerca-naos-metalico",
+    "name": "Cerca Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Cerca-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "cinzeiro-naos-metalico",
+    "name": "Cinzeiro Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Cinzeiro-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "floreira-naos-metalico",
+    "name": "Floreira Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Floreira-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "lixeira-naos-metalico",
+    "name": "Lixeira Naos Metálico",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Lixeira-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-metalico",
+    "slug": "poste-naos-metalico",
+    "name": "Poste Naos",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>\n<p>A luminária não faz parte do fornecimento podendo ser adquiridas pelo clientes luminárias de varias marcas que se encaixam neste poste.</p>\n<p>A nossa equipe esta a disposição para auxilia-los na compra da luminária que melhor adapta-se a necessidade.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Naos-Metalico-Poste-1024x816.png",
+    "dimensions_image": null
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "balizador-naos-madeira",
+    "name": "Balizador Naos Madeira",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Balizadores",
+    "type_slug": "balizador",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Balizador-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Balizador-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "banco-naos-madeira",
+    "name": "Banco Naos Madeira com encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Banco-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Banco-com-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "banco-sem-encosto-naos-madeira",
+    "name": "Banco Naos Madeira sem encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Banco-sem-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Banco-sem-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "banco-sem-encosto-naos-madeira-2",
+    "name": "Banco unitário Naos Madeira",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Naos-Banco-unitario-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Naos-Banco-cadeira-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "balizador-naos-madeira-2",
+    "name": "Bicicletário Naos",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Naos-Bicicletario-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2025/02/Esterni-Naos-Bicicletario-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "cerca-naos-madeira",
+    "name": "Cerca Naos Madeira",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Cerca-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Cerca-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "cinzeiro-naos-madeira",
+    "name": "Cinzeiro Naos Madeira",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Cinzeiro-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Cinzeiro-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "lixeira-naos-madeira",
+    "name": "Lixeira Naos Madeira",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Lixeira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Lixeira-medidas-1024x1024.png"
+  },
+  {
+    "line": "naos-madeira",
+    "slug": "poste-naos-madeira",
+    "name": "Poste Naos",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>\n<p>A luminária não faz parte do fornecimento podendo ser adquiridas pelo clientes luminárias de varias marcas que se encaixam neste poste.</p>\n<p>A nossa equipe esta a disposição para auxilia-los na compra da luminária que melhor adapta-se a necessidade.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Naos-Poste-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "banco-aludra",
+    "name": "Banco Aludra com encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Banco-com-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Banco-com-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "banco-aludra-sem-encosto",
+    "name": "Banco ALUDRA sem encosto",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Bancos",
+    "type_slug": "banco",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Esterni-Aludra-Banco-sem-encosto-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2023/01/Esterni-Aludra-Banco-sem-encosto-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "floreira-grande-aludra",
+    "name": "Banco Floreira Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "BancosFloreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Banco-Floreira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Banco-Floreira-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "bicicletario-aludra",
+    "name": "Bicicletário Aludra I",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Bicicletario-I-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Bicicletario-I-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "bicicletario-aludra-2",
+    "name": "Bicicletário Aludra N",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Bicicletários",
+    "type_slug": "bicicletario",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/Esterni-Aludra-Bicicletario-N-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2024/04/Esterni-Aludra-Bicicletario-N-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "cerca-aludra",
+    "name": "Cerca Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cercas",
+    "type_slug": "cerca",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Cerca-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Cerca-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "cinzeiro-aludra",
+    "name": "Cinzeiro Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A retirada de bitucas é pela parte inferior do cinzeiro.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Cinzeiros",
+    "type_slug": "cinzeiro",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Cinzeiro-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Cinzeiro-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "floreira-naos-madeira",
+    "name": "Floreira Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Floreira-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Floreira-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "lixeira-aludra",
+    "name": "Lixeira de Piso Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Os elementos de madeira são de Cumaru, uma excelente escolha para aplicações externas, tratados com várias demãos de tinta de alta resistência. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, que normalmente não são fornecidos.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Lixeira-de-Piso-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Lixeira-de-Piso-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "lixeira-pequena-aludra",
+    "name": "Lixeira Suspensa Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>Um LOGO pode ser colocado na lixeira para personalizar o produto.</p>\n<p>A tampa basculante permite a retirada do saco de lixo. A lixeira também pode ser removida para limpeza da mesma</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Lixeiras",
+    "type_slug": "lixeira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Lixeira-Suspensa-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Lixeira-Suspensa-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "ponto-de-informacoes-aludra",
+    "name": "Ponto de Informações Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Pontos de Informações",
+    "type_slug": "ponto-de-informacoes",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Ponto-de-Informacao-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Ponto-de-Informacao-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "ponto-de-onibus-aludra",
+    "name": "Ponto de Ônibus Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>As laterais podem ser personalizadas com LOGO e a o lado traseiro pode ser também em vidro caso de necessidade.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Pontos de Ônibus",
+    "type_slug": "ponto-de-onibus",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Ponto-de-Onibus-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Ponto-de-Onibus-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "poste-aludra",
+    "name": "Poste Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>\n<p>A luminária constituida de modulo de led 50/60W IP66 com lentes com várias curvas.</p>",
+    "tipo_real": "Postes",
+    "type_slug": "poste",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Poste-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Poste-medidas-1024x1024.png"
+  },
+  {
+    "line": "aludra",
+    "slug": "floreira-aludra",
+    "name": "Protetor de Árvores Aludra",
+    "description": "<p>Fabricado em aço carbono certificado, com tratamento de superfície por jateamento e metalização, e pintura própria para garantir alta resistência aos agentes atmosféricos. A cor pode ser escolhida pelo cliente dentro da nossa lista de cores. Eventuais parafusos são de aço inoxidável.</p>\n<p>A fixação é realizada através de chumbadores/parabolts, normalmente não fornecidos, ou por meio de engastamento.</p>",
+    "tipo_real": "Floreiras",
+    "type_slug": "floreira",
+    "featured_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Protetor-de-Arvore-1024x1024.png",
+    "dimensions_image": "https://esterni.ind.br/site/wp-content/uploads/2022/11/Esterni-Aludra-Protetor-de-Arvore-medidas-1024x1024.png"
+  }
+]

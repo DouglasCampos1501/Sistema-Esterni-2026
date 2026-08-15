@@ -1,0 +1,61 @@
+RewriteEngine On
+
+# Bloqueia acesso direto a includes/, database/ e scrape/ (scripts de banco e
+# arquivos de referência não podem ser acessados via navegador)
+RewriteRule ^(includes|database|scrape)/ - [F,L]
+
+# Cabeçalhos de segurança
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+</IfModule>
+
+# Compressão gzip — reduz bastante o peso de HTML/CSS/JS transferido
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml text/javascript
+    AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+    AddOutputFilterByType DEFLATE application/xml application/rss+xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# Cache do navegador para arquivos estáticos
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/png "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType image/svg+xml "access plus 30 days"
+    ExpiresByType image/x-icon "access plus 30 days"
+    ExpiresByType font/woff2 "access plus 30 days"
+</IfModule>
+
+# --- Rotas com prefixo de idioma (en/es/it) — pt-BR fica na raiz, sem prefixo ---
+RewriteRule ^(en|es|it)/linhas/([a-z0-9-]+)/?$ linhas/linha.php?lang=$1&slug=$2 [L,QSA]
+RewriteRule ^(en|es|it)/tipos/([a-z0-9-]+)/?$ produtos/tipo.php?lang=$1&slug=$2 [L,QSA]
+RewriteRule ^(en|es|it)/produtos/([a-z0-9-]+)/?$ produtos/produto.php?lang=$1&slug=$2 [L,QSA]
+RewriteRule ^(en|es|it)/noticias/([a-z0-9-]+)/?$ noticias/noticia.php?lang=$1&slug=$2 [L,QSA]
+RewriteRule ^(en|es|it)/linhas/?$ linhas/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/produtos/?$ produtos/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/noticias/?$ noticias/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/sobre/?$ sobre/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/contato/?$ contato/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/politica-de-privacidade/?$ politica-de-privacidade/index.php?lang=$1 [L,QSA]
+RewriteRule ^(en|es|it)/?$ index.php?lang=$1 [L,QSA]
+
+# --- Rotas em pt-BR (padrão, sem prefixo) ---
+
+# Linha individual: /linhas/slug/
+RewriteRule ^linhas/([a-z0-9-]+)/?$ linhas/linha.php?slug=$1 [L,QSA]
+
+# Tipo de produto (listagem dos produtos daquele tipo): /tipos/slug/
+RewriteRule ^tipos/([a-z0-9-]+)/?$ produtos/tipo.php?slug=$1 [L,QSA]
+
+# Produto individual: /produtos/slug/
+RewriteRule ^produtos/([a-z0-9-]+)/?$ produtos/produto.php?slug=$1 [L,QSA]
+
+# Notícia individual: /noticias/slug/
+RewriteRule ^noticias/([a-z0-9-]+)/?$ noticias/noticia.php?slug=$1 [L,QSA]

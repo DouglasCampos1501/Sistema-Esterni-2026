@@ -1,0 +1,157 @@
+/* Item novo do menu (não existe no site original): seletor de idiomas.
+   Bandeiras no mesmo padrão do site da Technomast (/assets/img/flags/*.png). */
+
+.top-menu .lang-switcher {
+    position: relative;
+}
+
+.top-menu .lang-switcher-toggle {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    cursor: pointer;
+    margin-left: .5em;
+}
+
+.lang-flag {
+    display: inline-block;
+    width: 1.4em;
+    height: auto;
+    vertical-align: middle;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .08);
+}
+
+.top-menu .lang-switcher .fa-chevron-down {
+    font-size: .65em;
+    transition: transform .15s ease;
+}
+
+.top-menu .lang-switcher.is-open .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.lang-switcher-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 10rem;
+    margin: .5rem 0 0;
+    padding: .4rem 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .12);
+    z-index: 60;
+}
+
+.lang-switcher.is-open .lang-switcher-menu {
+    display: block;
+}
+
+.lang-switcher-menu li a {
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    padding: .5rem 1rem;
+    color: #191919;
+    white-space: nowrap;
+}
+
+.lang-switcher-menu li a:hover,
+.lang-switcher-menu li.is-active a {
+    background: #f4f4f4;
+    color: #e40321;
+}
+
+/* Drilldown mobile (Foundation) empilha o submenu normalmente; some com a seta customizada */
+.is-drilldown .lang-switcher-menu {
+    position: static;
+    display: block;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+}
+
+.is-drilldown .lang-switcher .fa-chevron-down {
+    display: none;
+}
+
+/* Correções de layout do header em telas "large" (menu horizontal, não drilldown):
+   1) ícones sociais nunca quebram linha (o tema original usa min-width:5em por ícone,
+      largo demais pra caber os 4 de uma vez em telas menores como 1366px);
+   2) o item de idiomas nunca cai pra uma linha abaixo dos outros itens do menu. */
+@media screen and (min-width: 64em) {
+    .top-bar-left .contact-menu,
+    .top-line-contact .contact-menu {
+        flex-wrap: nowrap;
+    }
+
+    .top-bar-left .contact-menu > li > a,
+    .top-line-contact .contact-menu > li > a {
+        min-width: auto;
+        padding: .35rem .4rem;
+        font-size: 1.1rem;
+    }
+
+    #main-nav .lang-switcher,
+    #main-nav .lang-switcher-toggle {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+
+    /* O tema original reserva min-width:9em por item de menu — sobra demais em telas
+       de ~1280-1440px e empurra o seletor de idiomas (último item) pra linha de baixo.
+       Reduz só o suficiente pra tudo caber numa linha só, sem mudar o visual dos textos. */
+    #main-nav.top-menu > li > a {
+        min-width: 0;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 64em) and (max-width: 100em) {
+    #main-nav.top-menu > li > a {
+        padding-left: .75rem;
+        padding-right: .75rem;
+    }
+}
+
+/* Formulário de newsletter (nome + e-mail + botão + consentimento).
+   O tema original dá margin-top:1rem nos <input>, mas não no .button — sem isso o
+   botão fica mais alto que os campos de texto. Repete a mesma margem aqui. */
+.newsletter-form .cell > .button {
+    margin-top: 1rem;
+}
+
+.newsletter-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: .5em;
+    font-size: .85rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+/* Em telas estreitas os 3 campos empilham (nome, e-mail, botão) — com 1rem de
+   respiro em cada um, o texto de consentimento acaba ficando bem longe do campo
+   "Nome completo" lá em cima. Aperta o espaçamento nesse modo empilhado. */
+@media screen and (max-width: 39.9375em) {
+    .newsletter-form input,
+    .newsletter-form .cell > .button {
+        margin-top: .5rem;
+    }
+
+    .newsletter-consent {
+        margin-top: .35rem;
+    }
+}
+
+.newsletter-consent input[type="checkbox"] {
+    margin: .2em 0 0 0;
+    flex-shrink: 0;
+}
+
+.newsletter-consent a {
+    color: #191919;
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+# Impede a execução de PHP dentro da pasta de uploads, mesmo que algum
+# arquivo malicioso consiga ser salvo aqui (defesa em profundidade —
+# o upload já valida o tipo real do arquivo em includes/media.php).
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|php\d|phtml|phar)$">
+    Require all denied
+</FilesMatch>
