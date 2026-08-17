@@ -218,6 +218,44 @@ function t(string $key): string
 }
 
 /**
+ * Nome do mês abreviado (jan/Jan/ene/gen...) no idioma atual, a partir do número
+ * do mês ('01'..'12'). Usado nos cards de notícia (ex: "24 abr").
+ */
+function t_month_short(string $mm): string
+{
+    return t('date.month_short_' . $mm);
+}
+
+/**
+ * Nome do mês por extenso (janeiro/January/enero/gennaio...) no idioma atual.
+ */
+function t_month_full(string $mm): string
+{
+    return t('date.month_full_' . $mm);
+}
+
+/**
+ * Formata uma data (DATETIME/DATE do banco, ex: "2026-04-24 14:15:46") por extenso,
+ * respeitando a ordem/preposições de cada idioma — não é só trocar o nome do mês,
+ * a estrutura da frase muda (ex: inglês põe o mês antes do dia, sem "de").
+ */
+function format_long_date(?string $datetime): string
+{
+    if (!$datetime) {
+        return '';
+    }
+    $day = (int) substr($datetime, 8, 2);
+    $month = t_month_full(substr($datetime, 5, 2));
+    $year = substr($datetime, 0, 4);
+
+    return match (current_language()) {
+        'en' => "$month $day, $year",
+        'it' => "$day $month $year",
+        default => "$day de $month de $year", // pt-BR, es
+    };
+}
+
+/**
  * Aplica a tradução (se existir e não estiver vazia) sobre os campos base de
  * uma entidade (página, produto, notícia...). Campos base = conteúdo em pt-BR.
  */

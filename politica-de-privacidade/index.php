@@ -8,9 +8,7 @@ require_once __DIR__ . '/../includes/i18n.php';
 $lang = current_language();
 
 $pageTitle = t('privacy.page_title') . ' — Esterni Design e Mobiliário Urbano';
-$pageDescription = t('privacy.page_title') === 'Política de privacidade'
-    ? 'Conheça a Política de Privacidade da Esterni.'
-    : t('privacy.page_title');
+$pageDescription = t('privacy.meta_description');
 $bodyClass = 'inner-page';
 $activeMenu = '';
 

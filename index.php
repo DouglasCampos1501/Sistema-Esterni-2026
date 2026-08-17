@@ -1,8 +1,6 @@
 <?php
 declare(strict_types=1);
 
-$pageTitle = 'Esterni Design e Mobiliário Urbano - Campo Largo / Paraná';
-$pageDescription = 'Esterni Design e Mobiliário Urbano. Harmonia entre postes e mobiliário, criando equilíbrio para praças, parques, beira-mares, calçadões e condomínios fechados.';
 $bodyClass = 'home page-template-template-homepage';
 $activeMenu = 'home';
 
@@ -27,6 +25,20 @@ $typesStmt = db()->prepare(
 );
 $typesStmt->execute([$lang]);
 $types = $typesStmt->fetchAll();
+
+$postsStmt = db()->prepare(
+    "SELECT p.slug, p.published_at, m.path AS image_path,
+            COALESCE(t.title, p.title) AS title, COALESCE(t.excerpt, p.excerpt) AS excerpt
+     FROM posts p
+     LEFT JOIN media m ON m.id = p.featured_image_id
+     LEFT JOIN post_translations t ON t.post_id = p.id AND t.language_code = ?
+     WHERE p.status = 'published'
+     ORDER BY p.published_at DESC
+     LIMIT 3"
+);
+$postsStmt->execute([$lang]);
+$homePosts = $postsStmt->fetchAll();
+
 
 $home = '/uploads/media/home/';
 ?>
@@ -190,58 +202,58 @@ $home = '/uploads/media/home/';
 </div>
 </div>
 
+<?php
+$homePostDate = static function (?string $publishedAt): ?array {
+    if (!$publishedAt) {
+        return null;
+    }
+    return [substr($publishedAt, 8, 2), t_month_short(substr($publishedAt, 5, 2))];
+};
+$homeMainPost = $homePosts[0] ?? null;
+$homeOtherPosts = array_slice($homePosts, 1);
+?>
+<?php if ($homeMainPost): ?>
 <div class="grid-container">
 <div class="grid-x grid-padding-x" data-equalizer="news">
 <div class="small-12 cell">
 <div class="news">
 <div class="grid-x grid-padding-x">
 <div class="small-12 medium-6 cell">
-<a class="item card large" href="<?= e(home_url()) ?>noticias/" data-equalizer-watch="news">
+<?php $d = $homePostDate($homeMainPost['published_at']); ?>
+<a class="item card large" href="<?= e(home_url()) ?>noticias/<?= e($homeMainPost['slug']) ?>/" data-equalizer-watch="news">
 <div class="card-image wide overlay">
-<img src="<?= $home ?>2026-BancoCapella-site.png" alt="">
-<div class="date"><strong>24</strong> <span>abr</span></div>
+<?php if ($homeMainPost['image_path']): ?><img src="<?= e($homeMainPost['image_path']) ?>" alt="<?= e($homeMainPost['title']) ?>"><?php endif; ?>
+<?php if ($d): ?><div class="date"><strong><?= e($d[0]) ?></strong> <span><?= e($d[1]) ?></span></div><?php endif; ?>
 </div>
 <div class="card-section"><div class="text">
-<div class="title upper">Desde 1873, o banco de jardim é cenário de momentos imortalizados pela arte.</div>
-<div class="subtitle">Na Esterni, transformamos essa tradição em design contemporâneo com alma italiana. Cada detalhe da […]</div>
+<div class="title upper"><?= e($homeMainPost['title']) ?></div>
+<div class="subtitle"><?= e($homeMainPost['excerpt'] ? mb_strimwidth($homeMainPost['excerpt'], 0, 110, '…') : '') ?></div>
 </div></div>
 </a>
 <div class="spacer1 hide-for-medium"></div>
 </div>
+<?php if ($homeOtherPosts): ?>
 <div class="small-12 medium-6 cell card-list" data-equalizer-watch="news">
-<a class="item card" href="<?= e(home_url()) ?>noticias/">
+<?php foreach ($homeOtherPosts as $post): ?>
+<?php $d = $homePostDate($post['published_at']); ?>
+<a class="item card" href="<?= e(home_url()) ?>noticias/<?= e($post['slug']) ?>/">
 <div class="grid-x align-top">
-<div class="small-4 cell"><div class="card-image h43 overlay"><img src="<?= $home ?>2026-BancoAludra-Artesano-180x180.png" alt=""><div class="date"><strong>16</strong> <span>mar</span></div></div></div>
+<div class="small-4 cell"><div class="card-image h43 overlay"><?php if ($post['image_path']): ?><img src="<?= e($post['image_path']) ?>" alt="<?= e($post['title']) ?>"><?php endif; ?><?php if ($d): ?><div class="date"><strong><?= e($d[0]) ?></strong> <span><?= e($d[1]) ?></span></div><?php endif; ?></div></div>
 <div class="small-8 cell"><div class="card-section"><div class="text">
-<div class="title upper">Banco Naos com encosto: design exclusivo, identidade preservada</div>
-<div class="subtitle">Este banco com encosto da linha NAOS vai além da função urbana, ele carrega […]</div>
+<div class="title upper"><?= e($post['title']) ?></div>
+<div class="subtitle"><?= e($post['excerpt'] ? mb_strimwidth($post['excerpt'], 0, 110, '…') : '') ?></div>
 </div></div></div>
 </div>
 </a>
-<a class="item card" href="<?= e(home_url()) ?>noticias/">
-<div class="grid-x align-top">
-<div class="small-4 cell"><div class="card-image h43 overlay"><img src="<?= $home ?>2026-BancoS.Park-site-180x180.png" alt=""><div class="date"><strong>16</strong> <span>fev</span></div></div></div>
-<div class="small-8 cell"><div class="card-section"><div class="text">
-<div class="title upper">Banco S.Park: onde design encontra durabilidade</div>
-<div class="subtitle">O Banco S.Park foi criado para quem quer ir além do comum no mobiliário […]</div>
-</div></div></div>
+<?php endforeach; ?>
 </div>
-</a>
-<a class="item card" href="<?= e(home_url()) ?>noticias/">
-<div class="grid-x align-top">
-<div class="small-4 cell"><div class="card-image h43 overlay"><img src="<?= $home ?>Esterni-Abrigo-Onibus-site-180x180.png" alt=""><div class="date"><strong>24</strong> <span>out</span></div></div></div>
-<div class="small-8 cell"><div class="card-section"><div class="text">
-<div class="title upper">Conforto e design para quem vive a cidade</div>
-<div class="subtitle">Os abrigos de pessoas da Esterni unem funcionalidade, estética e durabilidade em uma estrutura […]</div>
-</div></div></div>
-</div>
-</a>
+<?php endif; ?>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
+<?php endif; ?>
 <div class="spacer1"></div>
 <div class="spacer6"></div>
 

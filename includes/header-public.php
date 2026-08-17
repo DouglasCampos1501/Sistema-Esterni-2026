@@ -17,8 +17,8 @@ foreach ($languages as $l) {
         break;
     }
 }
-$pageTitle = $pageTitle ?? 'Esterni Design e Mobiliário Urbano';
-$pageDescription = $pageDescription ?? 'Esterni Design e Mobiliário Urbano. Harmonia entre postes e mobiliário, criando equilíbrio para praças, parques, beira-mares, calçadões e condomínios fechados.';
+$pageTitle = $pageTitle ?? t('home.meta_title');
+$pageDescription = $pageDescription ?? t('home.meta_description');
 $bodyClass = $bodyClass ?? '';
 $activeMenu = $activeMenu ?? '';
 

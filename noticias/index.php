@@ -24,7 +24,6 @@ $stmt = db()->prepare(
 $stmt->execute([$lang]);
 $posts = $stmt->fetchAll();
 
-$monthAbbr = ['01' => 'jan', '02' => 'fev', '03' => 'mar', '04' => 'abr', '05' => 'mai', '06' => 'jun', '07' => 'jul', '08' => 'ago', '09' => 'set', '10' => 'out', '11' => 'nov', '12' => 'dez'];
 ?>
 
 <div class="color-box padding white">
@@ -50,7 +49,7 @@ $d = $p['published_at'] ? explode('-', substr($p['published_at'], 8, 2) . '-' . 
 <a class="item card" href="<?= e(home_url()) ?>noticias/<?= e($p['slug']) ?>/" data-equalizer-watch="news">
 <div class="card-image wide overlay">
 <?php if ($p['image_path']): ?><img src="<?= e($p['image_path']) ?>" alt="<?= e($title) ?>"><?php endif; ?>
-<?php if ($d): ?><div class="date"><strong><?= e($d[0]) ?></strong> <span><?= e($monthAbbr[$d[1]] ?? '') ?></span></div><?php endif; ?>
+<?php if ($d): ?><div class="date"><strong><?= e($d[0]) ?></strong> <span><?= e(t_month_short($d[1])) ?></span></div><?php endif; ?>
 </div>
 <div class="card-section"><div class="text">
 <div class="title upper"><?= e($title) ?></div>

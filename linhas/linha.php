@@ -20,7 +20,7 @@ $line = $stmt->fetch();
 
 if (!$line) {
     http_response_code(404);
-    $pageTitle = 'Página não encontrada — Esterni';
+    $pageTitle = t('error.not_found_title');
     $bodyClass = 'inner-page';
     require __DIR__ . '/../includes/header-public.php';
     echo '<div class="block"><div class="grid-container"><div class="grid-x grid-padding-x align-center"><div class="cell text-center" style="padding:4rem 0;"><h1>404</h1><p><a href="' . e(home_url()) . 'linhas/">' . e(t('home.lines.title')) . '</a></p></div></div></div></div>';

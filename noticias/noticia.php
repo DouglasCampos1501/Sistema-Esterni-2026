@@ -20,7 +20,7 @@ $post = $stmt->fetch();
 
 if (!$post) {
     http_response_code(404);
-    $pageTitle = 'Página não encontrada — Esterni';
+    $pageTitle = t('error.not_found_title');
     $bodyClass = 'inner-page';
     require __DIR__ . '/../includes/header-public.php';
     echo '<div class="block"><div class="grid-container"><div class="grid-x grid-padding-x align-center"><div class="cell text-center" style="padding:4rem 0;"><h1>404</h1><p><a href="' . e(home_url()) . 'noticias/">' . e(t('noticias.page_title')) . '</a></p></div></div></div></div>';
@@ -50,7 +50,7 @@ $othersStmt = db()->prepare(
 $othersStmt->execute([$lang, $post['id']]);
 $others = $othersStmt->fetchAll();
 
-$dateFormatted = $post['published_at'] ? date('d \d\e m \d\e Y', strtotime($post['published_at'])) : '';
+$dateFormatted = format_long_date($post['published_at']);
 ?>
 
 <div class="color-box padding white">
