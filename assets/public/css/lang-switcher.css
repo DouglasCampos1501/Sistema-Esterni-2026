@@ -35,46 +35,57 @@
     position: absolute;
     top: 100%;
     right: 0;
-    min-width: 10rem;
-    margin: .5rem 0 0;
-    padding: .4rem 0;
-    list-style: none;
+    /* Sem margin-top: um "espaço morto" entre o botão e o dropdown é exatamente o
+       que faz o menu fechar ao afastar o mouse um pouco antes de alcançar as opções.
+       Um padding-top na própria caixa cobre visualmente o mesmo respiro sem deixar
+       nenhum vão sem elemento por baixo do cursor. */
+    padding-top: .5rem;
+    z-index: 60;
+}
+
+.lang-switcher-menu::before {
+    /* caixa real (não só visual) que preenche a largura toda do item — resolve o
+       "dropdown some se o mouse sai um pouco do nome": agora a área de hover é a
+       largura inteira do menu, não só o texto do idioma. */
+    content: '';
+    position: absolute;
+    inset: 0;
     background: #fff;
     border: 1px solid #e6e6e6;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .12);
-    z-index: 60;
+    z-index: -1;
 }
 
 .lang-switcher.is-open .lang-switcher-menu {
     display: block;
+    min-width: 10rem;
 }
 
-.lang-switcher-menu li a {
+.lang-switcher-menu a {
     display: flex;
     align-items: center;
     gap: .6em;
-    padding: .5rem 1rem;
+    padding: .6rem 1.25rem;
     color: #191919;
     white-space: nowrap;
 }
 
-.lang-switcher-menu li a:hover,
-.lang-switcher-menu li.is-active a {
+.lang-switcher-menu a:hover,
+.lang-switcher-menu a.is-active {
     background: #f4f4f4;
     color: #e40321;
 }
 
-/* Drilldown mobile (Foundation) empilha o submenu normalmente; some com a seta customizada */
-.is-drilldown .lang-switcher-menu {
-    position: static;
-    display: block;
-    box-shadow: none;
-    border: none;
-    margin: 0;
-}
-
-.is-drilldown .lang-switcher .fa-chevron-down {
-    display: none;
+/* No mobile o item de idiomas continua dentro do #main-nav (faz parte do drilldown
+   como os outros itens do menu) — só o dropdown dele mesmo é sempre "clique", nunca
+   hover, então aqui basta garantir que fique com boa aparência empilhado. */
+@media screen and (max-width: 63.9375em) {
+    .lang-switcher-menu::before {
+        display: none;
+    }
+    .lang-switcher-menu a {
+        padding: .6rem 1rem;
+    }
 }
 
 /* Correções de layout do header em telas "large" (menu horizontal, não drilldown):

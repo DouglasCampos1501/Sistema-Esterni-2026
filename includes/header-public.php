@@ -85,7 +85,12 @@ function nav_active(string $key, string $activeMenu): string
 <li class="menu-item<?= nav_active('contact', $activeMenu) ?>"><a href="<?= e(home_url()) ?>contato/"><?= e(t('menu.contact')) ?></a></li>
 <li class="hl menu-item"><a target="_blank" rel="noopener" href="https://technomast.com.br/"><?= e(t('menu.group')) ?></a></li>
 <!-- Item novo: seletor de idiomas (não existe no site original; bandeiras no mesmo
-     padrão do site da Technomast — /assets/img/flags/{código}.png) -->
+     padrão do site da Technomast — /assets/img/flags/{código}.png).
+     Propositalmente SEM <ul>/<li> internos: o Foundation dropdown-menu (que já
+     gerencia o #main-nav) detecta automaticamente qualquer <ul> dentro de um <li>
+     como submenu dele e passa a controlar abrir/fechar por hover (+ desenha a
+     própria seta), brigando com o JS deste componente. Usando <div>/<a> em vez de
+     <ul>/<li>, o Foundation nunca "vê" isso como submenu. -->
 <li class="menu-item lang-switcher">
 <a href="#" class="lang-switcher-toggle" aria-label="<?= e(t('menu.language')) ?>">
 <?php if ($currentLangRow && $currentLangRow['flag_image']): ?>
@@ -93,16 +98,14 @@ function nav_active(string $key, string $activeMenu): string
 <?php endif; ?>
 <i class="fas fa-chevron-down"></i>
 </a>
-<ul class="lang-switcher-menu">
+<div class="lang-switcher-menu">
 <?php foreach ($languages as $l): ?>
-<li class="<?= $l['code'] === $lang ? 'is-active' : '' ?>">
-<a href="<?= e(lang_url($l['code'])) ?>">
+<a href="<?= e(lang_url($l['code'])) ?>" class="<?= $l['code'] === $lang ? 'is-active' : '' ?>">
 <?php if ($l['flag_image']): ?><img src="<?= e($l['flag_image']) ?>" alt="" class="lang-flag"><?php endif; ?>
 <?= e($l['name']) ?>
 </a>
-</li>
 <?php endforeach; ?>
-</ul>
+</div>
 </li>
 </ul>
 </div>
