@@ -58,16 +58,21 @@
 
 .lang-switcher.is-open .lang-switcher-menu {
     display: block;
-    min-width: 10rem;
+    min-width: 11.5rem;
 }
 
 .lang-switcher-menu a {
     display: flex;
     align-items: center;
-    gap: .6em;
-    padding: .6rem 1.25rem;
+    gap: .75em;
+    padding: .9rem 1.5rem;
+    font-size: 1.05rem;
     color: #191919;
     white-space: nowrap;
+}
+
+.lang-switcher-menu a + a {
+    border-top: 1px solid #f1f1f1;
 }
 
 .lang-switcher-menu a:hover,
@@ -111,19 +116,34 @@
         white-space: nowrap;
     }
 
-    /* O tema original reserva min-width:9em por item de menu — sobra demais em telas
-       de ~1280-1440px e empurra o seletor de idiomas (último item) pra linha de baixo.
-       Reduz só o suficiente pra tudo caber numa linha só, sem mudar o visual dos textos. */
+    /* O tema original reserva min-width:9em + margin-left:.5rem por item de menu —
+       sobra demais em telas de ~1280-1440px, e em idiomas com textos mais longos
+       (ex: "Sobre Esterni" em espanhol é bem maior que "A Esterni") o total passa a
+       não caber mais numa linha só, empurrando o seletor de idiomas pra linha de
+       baixo mesmo sem qualquer texto quebrar visualmente (por isso é fácil não notar
+       à primeira vista). Reduz min-width E o espaçamento entre itens o suficiente
+       pra sempre caber numa linha, em qualquer um dos 4 idiomas. */
     #main-nav.top-menu > li > a {
         min-width: 0;
         white-space: nowrap;
+        margin-left: .1rem;
     }
 }
 
-@media screen and (min-width: 64em) and (max-width: 100em) {
+@media screen and (min-width: 64em) and (max-width: 76.1875em) {
+    /* faixa mais estreita (~1024-1220px): reduz mais, é onde o espaço é mais apertado */
     #main-nav.top-menu > li > a {
-        padding-left: .75rem;
-        padding-right: .75rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+        font-size: .85em;
+    }
+}
+
+@media screen and (min-width: 76.25em) and (max-width: 100em) {
+    #main-nav.top-menu > li > a {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        font-size: .95em;
     }
 }
 
