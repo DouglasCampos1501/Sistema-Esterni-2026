@@ -9,27 +9,22 @@ $pageTitle = 'Dashboard';
 require __DIR__ . '/partials/layout-top.php';
 
 $counts = [
-    'pages' => db()->query('SELECT COUNT(*) FROM pages')->fetchColumn(),
     'products' => db()->query('SELECT COUNT(*) FROM products')->fetchColumn(),
     'posts' => db()->query('SELECT COUNT(*) FROM posts')->fetchColumn(),
-    'downloads' => db()->query('SELECT COUNT(*) FROM downloads')->fetchColumn(),
     'messages' => db()->query('SELECT COUNT(*) FROM contact_messages')->fetchColumn(),
 ];
 
 $activity = db()->query('SELECT * FROM activity_log ORDER BY created_at DESC LIMIT 12')->fetchAll();
 
 $stats = [
-    ['key' => 'pages', 'label' => 'Páginas', 'href' => '/admin/pages/index.php', 'icon' => 'file'],
     ['key' => 'products', 'label' => 'Produtos', 'href' => '/admin/products/index.php', 'icon' => 'box'],
     ['key' => 'posts', 'label' => 'Notícias', 'href' => '/admin/posts/index.php', 'icon' => 'newspaper'],
-    ['key' => 'downloads', 'label' => 'Downloads', 'href' => '/admin/downloads/index.php', 'icon' => 'download'],
     ['key' => 'messages', 'label' => 'Mensagens de contato', 'href' => '/admin/contact/messages.php', 'icon' => 'mail'],
 ];
 
 $quickActions = [
     ['label' => 'Novo produto', 'href' => '/admin/products/edit.php', 'icon' => 'box'],
     ['label' => 'Nova notícia', 'href' => '/admin/posts/edit.php', 'icon' => 'newspaper'],
-    ['label' => 'Nova página', 'href' => '/admin/pages/edit.php', 'icon' => 'file'],
     ['label' => 'Enviar mídia', 'href' => '/admin/media/index.php', 'icon' => 'image'],
 ];
 

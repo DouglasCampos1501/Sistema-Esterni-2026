@@ -16,3 +16,4 @@ Thumbs.db
 
 # Dumps brutos de scraping do site real (referência de trabalho, não é código-fonte)
 scrape/
+ADMIN-CREDENTIALS.md
