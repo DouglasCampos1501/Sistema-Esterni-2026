@@ -21,8 +21,15 @@ define('UPLOADS_URL', '/uploads/media');
 // Em produção (Linux/cPanel) isso normalmente já vem configurado pelo sistema.
 define('CURL_CA_BUNDLE', file_exists(__DIR__ . '/cacert.pem') ? __DIR__ . '/cacert.pem' : null);
 
+// Detecta ambiente local automaticamente pela URL configurada acima, para que
+// display_errors nunca fique ligado por engano em produção mesmo que este
+// arquivo seja copiado de um ambiente de desenvolvimento sem revisão.
+$isLocalEnv = (bool) preg_match('/\.(test|local)$|^https?:\/\/localhost/i', SITE_URL);
+
 error_reporting(E_ALL);
-ini_set('display_errors', '0'); // trocar para '1' apenas em ambiente local de desenvolvimento
+ini_set('display_errors', $isLocalEnv ? '1' : '0');
+ini_set('log_errors', '1');
+ini_set('error_log', BASE_PATH . '/includes/php-error.log');
 
 date_default_timezone_set('America/Sao_Paulo');
 

@@ -131,6 +131,116 @@ function format_rich_text(string $text): string
 }
 
 /**
+ * Sanitiza HTML vindo do dashboard (produtos, notícias) para exibição pública.
+ * Ao contrário de format_rich_text(), estes campos já guardam HTML de verdade
+ * (gerado por scripts de importação/tradução — ver database/translate-products.php),
+ * então escapar tudo quebraria a formatação. Em vez disso, remove qualquer tag/atributo
+ * fora da lista de permissões (allow-list), incluindo <script>, event handlers (onclick
+ * etc.) e "javascript:" em href — fecha XSS armazenado sem perder o HTML legítimo.
+ */
+function sanitize_html(string $html): string
+{
+    if (trim($html) === '') {
+        return '';
+    }
+
+    $allowedTags = ['p', 'br', 'strong', 'b', 'em', 'i', 'span', 'div', 'ul', 'ol', 'li', 'a', 'h3', 'h4'];
+    $allowedAttrs = [
+        'a' => ['href', 'target', 'rel'],
+        'span' => ['style'],
+        'div' => ['style', 'class'],
+        'h3' => ['class'],
+        'h4' => ['class'],
+    ];
+
+    $doc = new DOMDocument();
+    libxml_use_internal_errors(true);
+    $doc->loadHTML('<?xml encoding="utf-8" ?><div>' . $html . '</div>', LIBXML_NOERROR | LIBXML_NOWARNING);
+    libxml_clear_errors();
+
+    $root = $doc->getElementsByTagName('div')->item(0);
+    if (!$root) {
+        return '';
+    }
+    sanitize_dom_node($root, $allowedTags, $allowedAttrs);
+
+    $out = '';
+    foreach ($root->childNodes as $child) {
+        $out .= $doc->saveHTML($child);
+    }
+    return $out;
+}
+
+function sanitize_dom_node(DOMNode $node, array $allowedTags, array $allowedAttrs): void
+{
+    foreach (iterator_to_array($node->childNodes) as $child) {
+        if (!($child instanceof DOMElement)) {
+            continue;
+        }
+        $tag = strtolower($child->tagName);
+
+        // Tags perigosas: remove com todo o conteúdo (nunca deixa <script>/<style> vazarem como texto).
+        if (in_array($tag, ['script', 'style', 'iframe', 'object', 'embed', 'svg', 'form'], true)) {
+            $node->removeChild($child);
+            continue;
+        }
+
+        sanitize_dom_node($child, $allowedTags, $allowedAttrs);
+
+        if (!in_array($tag, $allowedTags, true)) {
+            // Tag não permitida, mas de resto inofensiva (ex: <div> de import): mantém o texto/filhos, descarta só a tag.
+            while ($child->firstChild) {
+                $node->insertBefore($child->firstChild, $child);
+            }
+            $node->removeChild($child);
+            continue;
+        }
+
+        $allowed = $allowedAttrs[$tag] ?? [];
+        foreach (iterator_to_array($child->attributes ?? []) as $attr) {
+            if (!in_array(strtolower($attr->name), $allowed, true)) {
+                $child->removeAttribute($attr->name);
+            }
+        }
+
+        if ($tag === 'a') {
+            $href = trim($child->getAttribute('href'));
+            if ($href !== '' && !preg_match('#^(https?:|mailto:|/)#i', $href)) {
+                $child->removeAttribute('href');
+            }
+            $child->setAttribute('target', '_blank');
+            $child->setAttribute('rel', 'noopener');
+        }
+
+        if (($tag === 'span' || $tag === 'div') && $child->hasAttribute('style')) {
+            $child->setAttribute('style', sanitize_css_declarations($child->getAttribute('style')));
+        }
+
+        if ($child->hasAttribute('class')) {
+            $class = preg_replace('/[^a-z0-9_\- ]/i', '', $child->getAttribute('class')) ?? '';
+            $child->setAttribute('class', trim($class));
+        }
+    }
+}
+
+function sanitize_css_declarations(string $style): string
+{
+    $allowedProps = [
+        'font-weight', 'font-style', 'text-decoration', 'color',
+        'padding-top', 'padding-bottom', 'margin-top', 'margin-bottom',
+    ];
+    $safe = [];
+    foreach (explode(';', $style) as $decl) {
+        if (preg_match('/^\s*([a-z-]+)\s*:\s*([a-z0-9#.,%\s-]+)\s*$/i', $decl, $m)
+            && in_array(strtolower($m[1]), $allowedProps, true)
+        ) {
+            $safe[] = strtolower($m[1]) . ': ' . trim($m[2]);
+        }
+    }
+    return implode('; ', $safe);
+}
+
+/**
  * Negociação de conteúdo em Markdown: agentes de IA podem pedir a versão
  * markdown de uma página (mais barata de processar que o HTML completo)
  * via header "Accept: text/markdown" ou "?format=md" na URL.

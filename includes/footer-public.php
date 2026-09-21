@@ -21,6 +21,7 @@ $newsletterFlash = flash_get();
 </div>
 <div class="small-12 large-auto cell">
 <form action="/newsletter.php" method="post" class="newsletter-form">
+<?= csrf_field() ?>
 <input type="text" name="website" value="" autocomplete="off" tabindex="-1" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;" aria-hidden="true">
 <div class="grid-x grid-padding-x">
 <div class="small-12 medium-4 cell">

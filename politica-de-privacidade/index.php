@@ -33,7 +33,7 @@ require __DIR__ . '/../includes/header-public.php';
 <div class="grid-container">
 <div class="grid-x grid-padding-x align-middle align-center">
 <div class="large-10 medium-11 small-12 cell justify">
-<?= t('privacy.content') ?>
+<?= sanitize_html(t('privacy.content')) ?>
 </div>
 </div>
 </div>

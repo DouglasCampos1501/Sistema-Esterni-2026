@@ -78,7 +78,7 @@ require __DIR__ . '/../includes/header-public.php';
 <h1 class="block-title large-text side-lines bottom-line upper"><?= e($name) ?></h1>
 <div class="subtitle">
 <?php if ($summary): ?><p><?= e($summary) ?></p><?php endif; ?>
-<?= $description ?>
+<?= sanitize_html((string) $description) ?>
 <ul>
 <li><?= e(t('menu.lines')) ?>: <strong><?= e($lineName) ?></strong></li>
 <li><?= e(t('produtos.type_prefix')) ?> <strong><?= e($typeName) ?></strong></li>

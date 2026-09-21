@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 $pageTitle = 'Usuários do Painel';
 require __DIR__ . '/../partials/layout-top.php';
 
-$users = db()->query('SELECT * FROM admin_users ORDER BY name')->fetchAll();
+$users = db()->query('SELECT id, name, email, last_login_at FROM admin_users ORDER BY name')->fetchAll();
 ?>
 <div class="content-header">
     <h1>Usuários do Painel</h1>

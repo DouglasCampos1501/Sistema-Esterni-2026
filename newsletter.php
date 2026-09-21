@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 // Handler do formulário "Receba por e-mail" (aparece no rodapé de toda página pública).
-// Sem CSRF token dedicado aqui de propósito — o formulário é compartilhado por header/footer
-// sem um <form> de admin por trás, mas valida honeypot + rate limit + duplicidade.
+// Valida CSRF token (compartilhado com o admin via csrf_field()/verify_csrf_token()),
+// honeypot, rate limit e duplicidade.
 
 require_once __DIR__ . '/includes/db.php';
 require_once __DIR__ . '/includes/functions.php';
@@ -24,6 +24,11 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 // Honeypot: se um segundo campo de e-mail escondido (armadilha pra bot) veio preenchido, finge sucesso e sai.
 if (trim($_POST['website'] ?? '') !== '') {
+    redirect($back);
+}
+
+if (!hash_equals($_SESSION['csrf_token'] ?? '', $_POST['csrf_token'] ?? '')) {
+    flash_set(t('newsletter.error'), 'error');
     redirect($back);
 }
 

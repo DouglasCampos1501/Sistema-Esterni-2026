@@ -77,7 +77,7 @@ $dateFormatted = format_long_date($post['published_at']);
 <div class="image wide"><img src="<?= e($post['image_path']) ?>" alt="<?= e($title) ?>"></div>
 <div class="spacer1"></div>
 <?php endif; ?>
-<div class="justify"><?= $content ?></div>
+<div class="justify"><?= sanitize_html((string) $content) ?></div>
 </div>
 
 <?php if ($others): ?>
