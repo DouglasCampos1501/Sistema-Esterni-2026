@@ -49,6 +49,28 @@ function nav_active(string $key, string $activeMenu): string
 <?= hreflang_tags() ?>
 <link rel="stylesheet" href="/assets/public/css/theme.css">
 <link rel="stylesheet" href="/assets/public/css/lang-switcher.css">
+<!-- Google tag (gtag.js) - Google Ads AW-11474746460 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11474746460"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11474746460');
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Conversao: Envio de Formulario de Contato (mensagem de sucesso exibida apos o POST)
+    if (document.querySelector('.contact-form') && document.querySelector('.callout.success')) {
+      gtag('event', 'conversion', {'send_to': 'AW-11474746460/btACCIGym-McENz4yt8q'});
+    }
+    // Conversao: Contato via WhatsApp (clique em qualquer link wa.me)
+    document.addEventListener('click', function (ev) {
+      var a = ev.target.closest('a[href*="wa.me"], a[href*="api.whatsapp.com"]');
+      if (a) {
+        gtag('event', 'conversion', {'send_to': 'AW-11474746460/lVcSCP6xm-McENz4yt8q'});
+      }
+    });
+  });
+</script>
 </head>
 <body class="<?= e($bodyClass) ?>">
 <div class="scrollhide-nav-holder">
